@@ -1,0 +1,1 @@
+_session_validator_data|a:4:{s:11:"remote_addr";s:13:"45.141.86.187";s:8:"http_via";s:64:"1.1 2a4d61538fbb384d64746e2642e5e74e.cloudfront.net (CloudFront)";s:20:"http_x_forwarded_for";s:13:"45.141.86.187";s:15:"http_user_agent";s:18:"Go-http-client/1.1";}_session_hosts|a:1:{s:17:"magentocommand.ml";b:1;}default|a:0:{}customer_base|a:0:{}checkout|a:0:{}catalog|a:0:{}message|a:0:{}
