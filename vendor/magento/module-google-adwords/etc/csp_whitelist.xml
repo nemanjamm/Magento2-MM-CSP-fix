@@ -11,13 +11,13 @@
         <policy id="script-src">
             <values>
                 <value id="google_ad_services" type="host">www.googleadservices.com</value>
-                <value id="google_analytics" type="host">www.google-analytics.com</value>
+                <value id="google_analytics" type="host">www.google-analytics.com stats.g.doubleclick.net googletagmanager.com www.googletagmanager.com</value>
             </values>
         </policy>
         <policy id="img-src">
             <values>
                 <value id="google_ad_services" type="host">www.googleadservices.com</value>
-                <value id="google_analytics" type="host">www.google-analytics.com</value>
+                <value id="google_analytics" type="host">www.google-analytics.com stats.g.doubleclick.net googletagmanager.com www.googletagmanager.com</value>
             </values>
         </policy>
     </policies>
