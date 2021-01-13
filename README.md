@@ -13,7 +13,7 @@ composer require cweagans/composer-patches
 
         "patches": {
         "magento/module-google-adwords": {
-              "INFRA-123456: MageMojo CSP fix to whitelist googletagmanager.com domain": "https://github.com/magemojo/Magento2-MM-CSP-fix/pull/2/commits/5faa8f1619e4f6b600ce4fedb9a54d7fe5a4debb"
+              "INFRA-123456: MageMojo CSP fix to whitelist googletagmanager.com domain": "https://github.com/magemojo/Magento2-MM-CSP-fix/commit/5faa8f1619e4f6b600ce4fedb9a54d7fe5a4debb.patch"
           }
       }
 Text is added in the "extra": { section, with following content:
@@ -38,11 +38,8 @@ https://devdocs.magento.com/guides/v2.4/test/unit/unit_test_execution_cli.html
 
 Edit dev/tests/unit/phpunit.xml.dist file and under <testsuite name="Magento_Unit_Tests_Other"> just keep following:
 
-
 <directory>../../../vendor/magento/module-google-adwords/Test/Unit</directory>
 Remove everything else since we are running test only against one specific Magento 2 core module.
 
 Execute following:
-
-
 ./vendor/bin/phpunit -c dev/tests/unit/phpunit.xml.dist vendor/magento/module-google-adwords/Test/Unit 
